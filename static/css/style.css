@@ -19,10 +19,43 @@ body {
     height: 100vh;
 
     display: flex;
-    align-items: flex-start;
+    align-items: center;
     justify-content: center;
     background-color: pink;
 
     border-radius: 2px ;
 
+}
+form{
+    border: 5px solid rgb(247, 126, 146);
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+input[type=text],input[type=email]{
+    margin: 2px;
+    padding: 10px;
+}
+input[type=submit]{
+    width:50%;
+    height: 5vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+label{
+    width: 100%;
+    text-align: start ;
+    color:  palevioletred;
+    
+    
+}
+
+.divabc{
+    display:flex;
+    flex-direction: column;
 }

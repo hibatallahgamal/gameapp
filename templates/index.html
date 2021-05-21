@@ -1,6 +1,9 @@
-{% extends "base.html" %} {%block content%}
-    <form action="{{url_for('game')}}",methode="POST">
+{% extends "base.html" %} 
+{% block content %}
+    <form action="{{url_for('game')}}" method="POST">
+        <label for="Name">Name</label>
         <input type="text" name="name" placeholder="enter your name"><br>
+        <label for="E-mail">E-mail</label>
         <input type="email" name="mail" placeholder="enter your email"><br>
         <input type="submit" value="Enter"><br>
     </form>
